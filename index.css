@@ -1,0 +1,325 @@
+/* 通用样式 */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5; /* 更改 body 背景颜色以与 article 区分 */
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 20px 20px;
+  background-color: #fff; /* 给 article 添加背景颜色 */
+  padding: 40px 60px; /* 添加内边距以增加内容与边框之间的距离 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影以使文章内容更突出 */
+}
+
+/* 响应式布局 */
+@media (min-width: 1040px) {
+  article {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff; /* 给 article 添加背景颜色 */
+    padding: 40px 60px; /* 添加内边距以增加内容与边框之间的距离 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影以使文章内容更突出 */
+  }
+}
+
+/* 添加样式以增强用户体验 */
+h1,
+h2,
+h3 {
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: 800;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 700;
+margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 500;
+margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 500;
+margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+}
+
+p {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 为ul、ol、li添加样式 */
+ul {
+  list-style-type: disc;
+  margin-left: 0.4em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 0.4em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+li {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+
+}
+
+/* 为引用添加样式 */
+blockquote {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+blockquote {
+  background-color: hsl(0, 0%, 96%);
+  border-left: 5px solid #ccc;
+  padding: 0.8em 1em;
+  color: #777;
+  font-style: italic;
+}
+
+blockquote p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote p:first-child {
+  margin-top: 0;
+}
+
+blockquote p + p {
+  margin-top: 1.5em;
+}
+
+/* 为代码块添加样式 */
+pre {
+  background-color: #f5f5f5;
+  padding: 1em;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+
+/* 为分割线添加样式 */
+hr {
+  height: 1px;
+  padding: 0;
+  margin: 1.5em 0;
+  background-color: #ccc;
+  border: none;
+}
+
+/* 为表格添加样式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+table tr th {
+  font-weight: 600;
+  border: 1px solid #ccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr td {
+  border: 1px solid #ccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr th :first-child,
+table tr td :first-child {
+  margin-top: 0;
+}
+
+table tr th :last-child,
+table tr td :last-child {
+  margin-bottom: 0;
+}
+
+/* 为图片添加样式 */
+img {
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 为图片标注添加样式 */
+figcaption {
+  font-size: 85%;
+  color: #777;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* 为视频添加样式 */
+
+video {
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 为表单添加样式 */
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 1em;
+  margin: 0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0074d9;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075),
+    0 0 5px rgba(0, 116, 217, 0.1);
+}
+
+/* 为按钮添加样式 */
+button {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 10px;
+  font-size: 1em;
+  margin: 0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+button:hover {
+  border-color: #0074d9;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075),
+    0 0 5px rgba(0, 116, 217, 0.1);
+}
+
+/* 为评论添加样式 */
+.comment {
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.comment-header {
+  margin-bottom: 1em;
+}
+
+.comment-header .comment-author {
+  font-weight: 600;
+}
+
+.comment-header .comment-date {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.comment-content {
+  font-size: 0.9em;
+}
+
+.comment-content p {
+  margin-bottom: 0;
+}
+
+.comment-content p:last-child {
+  margin-bottom: 0;
+}
+
+.comment-content a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.comment-content a:hover {
+  text-decoration: underline;
+}

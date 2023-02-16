@@ -1,25 +1,67 @@
-# 设计过程
+# My Product Design Process
 
-## 1. 确定需求
+I have been working in UX design since 2018, and in this article, I will summarize my standard design process using Markdown syntax.
 
-在开始设计之前，需要先确定用户的需求。我们进行了一系列用户研究，包括用户访谈、竞品分析等，以了解用户的需求和痛点。
+### A Quick Summary
 
-## 2. 制定方案
+Here is a quick summary of my design process:
 
-根据用户研究的结果，我们制定了一些设计方案，包括界面设计、交互设计等。我们采用了用户体验设计的方法，以确保设计方案符合用户的期望和需求。
+1. Review the requirements and understand the user goals.
+2. Explore existing solutions and common UX patterns.
+3. Research user needs and mental models.
+4. Brainstorm and explore at least three options.
+5. Discuss with the team and make a decision.
+6. Create a low-fi prototype to communicate the solution.
+7. Design the user interface following the design system.
+8. Provide the design file to the development team with all necessary details.
+9. Check the product before launch to ensure it follows the design file guide.
+10. After launch, track the success metric, gather feedback from the market, and iterate the feature if necessary.
 
-## 3. 原型设计
+### 01 Review the Requirements
 
-在制定了初步的设计方案后，我们开始进行原型设计。我们使用Sketch等工具创建了一些低保真原型，以便快速验证设计方案的可行性。
+First, I get the requirement from the product manager, and I try to answer some key questions:
 
-## 4. 用户测试
+- Who are our users? What are they trying to do with this feature?
+- In what scenario are they going to use this feature?
+- What is the relationship of this feature with other components in the system? Are there any limitations?
 
-完成原型设计后，我们邀请了一些用户参加用户测试。通过用户测试，我们可以了解用户对设计方案的反馈和建议，以便进行改进。
+I also identify the user's desired outcome and how to measure success.
 
-## 5. 设计迭代
+### 02 Explore Existing Solutions
 
-根据用户测试的结果，我们进行了一些设计迭代。我们重新设计了一些界面和交互，以改进用户体验和功能性。
+Next, I explore the existing solutions in the market. This step is essential for getting inspiration and starting brainstorming. Following common UX patterns in the market can help users learn how to use the app more easily.
 
-## 6. 最终交付
+### 03 User Needs Research
 
-在完成了多轮的设计迭代后，我们最终交付了设计成果。经过不断地优化和改进，我们的设计方案最终得到了用户的认可和好评。
+When I'm unsure about the user's mental model and their scenario of using the product, I conduct user needs research. This step is helpful in understanding what your users care about.
+
+### 04 Brainstorm and Explore
+
+Using the market research and users need research, I brainstorm and explore at least three options. I make sure to make them diverse enough and put them in front of the user scenario. I also consider the advantages and disadvantages of each one.
+
+### 05 Team Discussion and Decision Making
+
+I present the options to my teammates and explain how I analyzed the scenario and which one I recommend the most. Using a prototype, if necessary, can help. I also make sure to understand different stakeholders' opinions, like whether it's doable in programming and how it will influence marketing. In this step, I mark down the success metric of the feature and how to test it.
+
+### 06 Low-fi Prototyping
+
+After the team has reached a basic agreement, I create a low-fi prototype to make sure everyone is on the same page. I use the prototype as a communication tool to show how this solution is better than others. I also involve some users to help us do the basic testing and to understand what they are thinking about the product.
+
+### 07 UI Design
+
+Next, I start to design the user interface, following the design system as much as possible. I use the grid and name components correctly.
+
+### 08 Design Handoff
+
+After completing the UI design, I provide the design file to the development team. In this step, I mark all noticeable details of the design, such as margin, rules of the textbox, etc.
+
+### 09 Before Product Launch
+
+Before launching the product, I check it to ensure it follows the design file guide.
+
+### 10 After Launch
+
+After the product launch, I track the success metric to see feedback from the market. If necessary, I talk to some users and iterate the feature.
+
+By following these ten steps, I ensure that my design process is comprehensive and user-centered.
+
